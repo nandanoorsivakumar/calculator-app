@@ -11,19 +11,18 @@ public class HelloController {
         return "Hello World";
     }
 
-    @GetMapping("add")
+    @GetMapping("/add")
     public int add(int a, int b){
-        return a+b;
+        return a + b;
     }
 
-    @GetMapping("sub")
-    public int substration(int a, int b){
+    @GetMapping("/sub")
+    public int substraction(int a, int b){
         return a - b;
     }
 
-    @GetMapping("Multiply")
+    @GetMapping("/multiply")
     public int mul(int a, int b){
         return a * b;
     }
-
 }
