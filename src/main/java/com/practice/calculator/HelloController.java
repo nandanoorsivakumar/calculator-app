@@ -15,4 +15,17 @@ public class HelloController {
     public int add(int a, int b){
         return a+b;
     }
+<<<<<<< Updated upstream
+=======
+
+    @GetMapping("sub")
+    public int substration(int a, int b){
+        return a - b;
+    }
+
+    @GetMapping("Multiply")
+    public int mul(int a, int b){
+        return a * b;
+    }
+>>>>>>> Stashed changes
 }
